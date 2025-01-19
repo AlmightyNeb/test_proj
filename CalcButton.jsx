@@ -1,5 +1,5 @@
 import React from "react";
 
-const calcButton = ({ num }) => {
+const CalcButton = ({ num }) => {
   return <button>{num}</button>;
 };
