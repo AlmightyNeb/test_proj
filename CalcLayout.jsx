@@ -2,8 +2,13 @@ import React from "react";
 import CalcButton from "./CalcButton";
 
 const CalcLayout = (props) => {
+  const style = {
+    display: flex,
+    justifyContent: center
+  };
+  
   return (
-    <>
+    <div style={style}>
       <CalcButton num="1" />
       <CalcButton num="2" />
       <CalcButton num="3" />
@@ -14,6 +19,6 @@ const CalcLayout = (props) => {
       <CalcButton num="8" />
       <CalcButton num="9" />
       <CalcButton num="0" />
-    </>
+    </div>
   );
 };
